@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Useroperations"
+    android:background="@drawable/back">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insert"
+        android:text="Insert User"
+        android:gravity="center"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:text="Update User"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/insert" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:text="Delete User"
+        android:gravity="center"
+        android:layout_below="@+id/update"
+
+        android:layout_marginTop="50dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewall"
+        android:text="View All Users"
+        android:gravity="center"
+        android:layout_below="@+id/delete"
+
+        android:layout_marginTop="50dp" />
+
+
+
+</RelativeLayout>

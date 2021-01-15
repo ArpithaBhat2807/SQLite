@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/back">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernamer"
+        android:hint="Username"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordr"
+        android:hint="Password"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/usernamer"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmpassword"
+        android:hint="Confirm Password"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/passwordr"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/register1"
+        android:text="Register"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="145dp"
+        android:layout_below="@+id/confirmpassword" />
+
+
+
+</RelativeLayout>
